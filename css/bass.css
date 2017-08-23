@@ -1,0 +1,20 @@
+*{
+	margin: 0;    /* body=8像素 */ 
+	padding: 0;   /* 列表标签 */
+	list-style: none;     /* 列表标签 */
+	text-decoration:none;   /*  A标签 */
+	font-style: normal;      /* 字体样式 */
+	font-weight: normal;    /* 标题粗细 */
+	-webkit-user-select: none;
+	user-select: none;    /* 解决谷歌浏览器兼容性问题 */
+	box-sizing: border-box;   /* 浏览器自动设置border */
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    tap-highlight-color: rgba(0, 0, 0, 0);
+    /* 取消点击反馈效果 */
+
+}
+img{
+	width: 100%;
+	height: 100%;
+	display: block;
+}
